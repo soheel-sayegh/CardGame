@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" async></script>
+    <title>Card-Game</title>
+  </head>
+  <body>
+    <div class="overlay-text visible">
+      <span class="overlay-text-small"> Click to Start</span>
+    </div>
+    <div id="game-over-text" class="overlay-text">
+      <span class="overlay-text-small">GAME OVER</span>
+
+      <span class="overlay-text-small">Click to Restart</span>
+    </div>
+    <div id="victory-text" class="overlay-text">
+      <span class="overlay-text-small"> VICTORY</span>
+
+      <span class="overlay-text-small">Click to Restart</span>
+    </div>
+    <div class="game-info-container">
+      <div class="game-info">Time <span id="time-remaining">100</span></div>
+      <div class="game-info">Flips <span id="flips">0</span></div>
+    </div>
+    <div class="game-container">
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/SubZero.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/SubZero.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/shaoKhan.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/shaoKhan.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/Scorpion.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/Scorpion.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/Noobsaibot.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/Noobsaibot.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/LiuKang.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/LiuKang.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/Kung_Lao.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/Kung_Lao.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/Kabal.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/Kabal.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/cyrix.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="Mortal" src="Assets/Images/mortalkombat.jpg" />
+        </div>
+        <div class="card-front card-face">
+          <img class="card-value" src="Assets/Images/cyrix.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
