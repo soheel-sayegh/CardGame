@@ -1,6 +1,6 @@
 class AudioController {
   constructor () {
-    this.bgMusic = new Audio ('Assets/Audio/reptile.mp3');
+    this.bgMusic = new Audio ('Assets/Audio/Reptile.mp3');
     this.flipSound = new Audio ('Assets/Audio/flip.wav');
     this.matchSound = new Audio ('Assets/Audio/match.wav');
     this.victorySound = new Audio ('Assets/Audio/victory.wav');
