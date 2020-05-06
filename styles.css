@@ -166,3 +166,24 @@ body {
     font-size: 10px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .game-container {
+    width: 100%;
+    height: 71%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 5px;
+    perspective: 1000px;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  .game-info-container {
+    width: 100%;
+  }
+  .card {
+    height: 29%;
+  }
+}
